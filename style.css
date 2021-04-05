@@ -1,0 +1,93 @@
+body {
+    background-color:black;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+ }
+ 
+ .main-menu-container {
+    width: 500px; 
+    padding: 0 650px;
+     }
+ 
+ .main.menu {
+    padding: 0;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+ }
+ 
+ .main-menu-item {
+     display: inline-block;
+     
+ }
+ .main-menu-item a {
+     display: block;
+     text-decoration: none;
+     color: #e9e4ff;
+     width: 120px;
+     padding: 20px 0;
+     /* alul-fölöl 20px, jobbrra-balra 0 */
+ }
+ 
+ .main-menu-item:hover {
+     background-color: rgb(44, 46, 58);
+ }
+ 
+ .main-menu-item:hover a {
+     color: rgb(216, 19, 19);
+     font-weight: bold;
+ }
+ 
+.szurkeseg {
+    width: 900px;
+    background-color:rgb(44, 46, 58);
+    margin: 40px auto 0 auto;
+    padding: 0 30px 40px 30px;
+}
+ 
+h1 {
+     font-size: 50;
+     margin: 0;
+     padding: 70px 0 10px 0;
+      }
+ 
+.created-date {
+    color: grey;
+    font-size: 20;
+    font-style: italic;
+    padding: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 30;
+    margin: 0;
+    padding: 20px 0 20px 0;
+     }
+
+p {
+    margin: 5px 0;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.image-container {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-size: 10;
+    font-style: italic;
+    text-align: center;
+}
+
+ footer {
+    background-color: rgba(169, 169, 169, 0.24); 
+    color: white;
+    text-align: center;
+    padding: 15px 0 60px 0;
+ }
